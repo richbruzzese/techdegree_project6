@@ -1,11 +1,14 @@
 extends layout
 
 block content
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
   h1= `Server Error`
   h2= `Error status code: ${err.status} - Server Error`
-  p.error-p= `Human friendly error message: ${err.message}`
-
-  a.home(href=`/`) Home
+  p.error-p= `Here's what went wrong: ${err.message}`
 
   div.not-found-stack
     hr

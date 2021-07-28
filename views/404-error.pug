@@ -1,11 +1,14 @@
 extends layout
 
 block content
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
   div.container
     h1= `404 - Page Not Found`
-    p.not-found-p= `Oops!  It looks like the page you're looking for does not exist.`
-
-    a.home(href=`/`) Home
+    p.not-found-p= `Page not found`
 
     if err
 

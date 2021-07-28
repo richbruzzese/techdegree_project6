@@ -2,57 +2,48 @@
     "projects": [
       {
         "id": 0,
-        "project_name": "name", 
-        "description": "des",
-        "technologies": "tech",
+        "project_name": "Random Quote Generator", 
+        "description": "Worked with Arrays and Objects to generate random quotes onto a page",
+        "technologies": ["Javascript","HTML", "CSS"],
         "live_link": "link",
-        "github_link": "link",
-        "image_urls": ["img 1, img2"]
+        "github_link": "https://github.com/richbruzzese/techdegree_project1",
+        "image_urls": ["/static/images/project1/ss-1.png", "/static/images/project1/ss-2.png"]
       }, 
       {
         "id": 1,
-        "project_name": "name", 
-        "description": "des",
-        "technologies": "tech",
+        "project_name": "Data Pagination and Filtering", 
+        "description": "Created a paginated list of students with an ability to filter down via a search bar.  Pagination dynamically updated based on filtered results. ",
+        "technologies": ["Javascript","HTML","CSS"],
         "live_link": "link",
-        "github_link": "link",
-        "image_urls": ["img 1, img2"]
+        "github_link": "https://github.com/richbruzzese/techdegree_project2",
+        "image_urls": ["/static/images/project2/ss-1.png", "/static/images/project2/ss-2.png"]
       },
       {
         "id": 2,
-        "project_name": "name", 
-        "description": "des",
-        "technologies": "tech",
+        "project_name": "Interactive Form", 
+        "description": "Created a demo of an interactive form allowing users to select courses, provide information, and accept payment.  Managed accessibilty features to handle errors in real time, alongside errors on submit.",
+        "technologies": ["Javascript", "HTML", "CSS", "Accessibility"],
         "live_link": "link",
-        "github_link": "link",
-        "image_urls": ["img 1, img2"]
+        "github_link": "https://github.com/richbruzzese/techdegree_project3",
+        "image_urls": ["/static/images/project3/ss-1.png", "/static/images/project3/ss-2.png"]
       },
       {
         "id": 3,
-        "project_name": "name", 
-        "description": "des",
-        "technologies": "tech",
+        "project_name": "Phrase Hunter Game", 
+        "description": "Created a Phrase Hunting game which will allow users to guess a randomly generated phrase. Working heavily with callback functions",
+        "technologies": ["Javascript", "OOP", "CSS", "HTML"],
         "live_link": "link",
-        "github_link": "link",
-        "image_urls": ["img 1, img2"]
+        "github_link": "https://github.com/richbruzzese/techdegree_project4",
+        "image_urls": ["/static/images/project4/ss-1.png", "/static/images/project4/ss-2.png"]
       },
       {
         "id": 4,
-        "project_name": "name", 
-        "description": "des",
-        "technologies": "tech",
+        "project_name": "Employee Directory", 
+        "description": "Used AJAX tools to generate a random directory of employees.  Employees can be searched, and filterd.  Objects generated can be toggled between.",
+        "technologies": ["Javascript", "HTML", "CSS", "OOP"],
         "live_link": "link",
-        "github_link": "link",
-        "image_urls": ["img 1, img2"]
-      },
-      {
-        "id": 5,
-        "project_name": "name", 
-        "description": "des",
-        "technologies": "tech",
-        "live_link": "link",
-        "github_link": "link",
-        "image_urls": ["img 1, img2"]
+        "github_link": "https://github.com/richbruzzese/techdegree_project5",
+        "image_urls": ["/static/images/project5/ss-1.png", "/static/images/project5/ss-2.png"]
       }
     ]
   }
