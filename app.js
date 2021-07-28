@@ -1,14 +1,13 @@
 const express = require('express')
-// const {quotes} = require('/data')
+const {quotes} = require('./data')
 
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 app.use('/static', express.static('public'))
 
 app.set('view engine', 'pug')
-
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) =>{
     res.render('index')
