@@ -21,15 +21,14 @@ block content
           each technology in project.technologies
             li= technology
 
-        a.btn-link(href=`${project.link}`) Live Demo
-        a.btn-link(href=`${project.github_link}`) GitHub Repo
+        a.btn-link(href=`${project.live_link}` target="blank") Live Demo
+        a.btn-link(href=`${project.github_link}` target="blank") GitHub Repo
 
     .project-img-box.box
 
       img.project-img(src=`${project.image_urls[0]}`, alt='')
       img.project-img(src=`${project.image_urls[1]}`, alt='')
-      img.project-img(src=`${project.image_urls[2]}`, alt='')
-
+      
     nav.nav
       a(href='/')
         span &larr;

@@ -23,7 +23,7 @@ app.get('/project/:id', (req, res, next) =>{
     if(project){
         res.render('project', {project})   
       }else{
-        next(err)
+        next()
       }
 })
 
