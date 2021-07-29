@@ -43,11 +43,11 @@ app.use((req, res, next) => {
   
 app.use((err, req, res, next) => {
     if (err.status === 404) {
-        res.status(404).render('404-error', {err})
+        res.status(404).render('page-not-found', {err})
     }else{
         err.status = (err.status || 500)
         err.message = (err.message || `Something went wrong on the server`)
-        res.render('global-error', {err})
+        res.render('error', {err})
     }
     console.error(err.status, err.message)
   });
